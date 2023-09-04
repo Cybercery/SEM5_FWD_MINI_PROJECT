@@ -1,0 +1,16 @@
+h1 {
+  background-color: #f3eadc;
+  position: fixed;
+  top: -21.5;
+  left: 0;
+  height: 120px;
+  font-size: 31.5;
+  font-family: "root\assets\fonts\BerkshireSwash-Regular.ttf";
+}
+img {
+  width: 120px;
+  height: auto;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
