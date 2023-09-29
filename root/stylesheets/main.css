@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 .mySlides {
   /* padding-top: 130px;
   padding-left: 275px; */
@@ -5,6 +9,7 @@
   height: 75%;
   object-fit: cover;
   border-top: 0cm;
+  opacity: 100%;
 }
 .logo {
   position: absolute;
@@ -12,6 +17,7 @@
   height: 150px;
   width: auto;
 }
+
 .menu {
   display: block;
   padding: 12px 20px;
@@ -22,32 +28,77 @@
   line-height: 1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  -webkit-transition: opacity 300ms ease;
-  -moz-transition: opacity 300ms ease;
-  -ms-transition: opacity 300ms ease;
-  transition: opacity 300ms ease;
-
   position: absolute;
   top: 3%;
   border-color: white;
   background: transparent;
   color: white;
-  opacity: 100%;
+  opacity: 70%;
 }
 .menu:hover {
-  opacity: 70%;
+  opacity: 100%;
   color: white;
 }
-.button_inside {
-  font-family: "calibri";
+.title_name {
+  font-family: "Montserrat", sans-serif;
   position: absolute;
   top: 15%;
   bottom: 50%;
   left: 10%;
   color: aliceblue;
-  font-size: 80px;
-  font-weight: 500;
   font-size: 90px;
-  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
+}
+.seat_reservation_button {
+  display: block;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+
+  top: 50%;
+  left: 10%;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: absolute;
+  border-color: white;
+  background: white;
+  color: black;
+  opacity: 100%;
+}
+.seat_reservation_button:hover {
+  border-color: white;
+  background: transparent;
+  color: white;
+  opacity: 100%;
+}
+.about_us {
+  color: black;
+  background-color: #dedede;
+  height: 1000px;
+  width: 100%;
+
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  font-size: 20px;
+}
+.about_us_text {
+  font-size: 20px;
+  padding-left: 300px;
+}
+.about_us_img {
+  object-fit: cover;
+  width: 502px;
+  height: 777px;
+  height: 50%;
+  width: 85%;
+  padding-left: 250px;
 }
