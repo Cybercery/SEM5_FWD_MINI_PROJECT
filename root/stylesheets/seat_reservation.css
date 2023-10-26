@@ -1,0 +1,37 @@
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+.floor {
+  height: 10rem;
+  width: 40rem;
+  background-color: blue;
+
+  display: flex;
+  justify-content: space-around;
+}
+.table_row1 {
+  height: 50px;
+  width: 50px;
+  background-color: #d3d3d3;
+  border-radius: 7px;
+  margin-top: 2.5rem;
+}
+.table_row2 {
+  height: 50px;
+  width: 100px;
+  background-color: #d3d3d3;
+  border-radius: 7px;
+  margin-top: 2.5rem;
+}
+input[type="date"] {
+  font-family: "Montserrat", sans-serif;
+}
+input[type="time"] {
+  font-family: "Montserrat", sans-serif;
+}
+/* .res {
+  background-image: url("/root/assets/images/floor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+} */

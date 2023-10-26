@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
 .mySlides {
   /* padding-top: 130px;
   padding-left: 275px; */
@@ -10,15 +13,43 @@
   object-fit: cover;
   border-top: 0cm;
   opacity: 100%;
+  z-index: -1;
 }
 .logo {
-  position: absolute;
   top: 5px;
   height: 150px;
   width: auto;
 }
 
-.menu {
+.title_name {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 25%;
+  bottom: 50%;
+  left: 10%;
+  color: aliceblue;
+  font-size: 90px;
+  -webkit-text-stroke-color: black;
+}
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  min-width: 100vw;
+  max-width: 100vw;
+  opacity: 100%;
+  z-index: 1000;
+}
+ul {
+  display: flex;
+  margin-right: 2.5rem;
+  margin-top: 1.5rem;
+  gap: 33px;
+}
+li {
+  display: inline;
+}
+.btnmenu {
   display: block;
   padding: 12px 20px;
   border: 1px solid transparent;
@@ -28,26 +59,17 @@
   line-height: 1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  position: absolute;
-  top: 3%;
+
   border-color: white;
   background: transparent;
   color: white;
   opacity: 70%;
+  text-decoration: none;
+  margin-top: -3.5rem;
 }
-.menu:hover {
+.btnmenu:hover {
   opacity: 100%;
   color: white;
-}
-.title_name {
-  font-family: "Montserrat", sans-serif;
-  position: absolute;
-  top: 30%;
-  bottom: 50%;
-  left: 10%;
-  color: aliceblue;
-  font-size: 90px;
-  -webkit-text-stroke-color: black;
 }
 .seat_reservation_button {
   display: block;
@@ -76,46 +98,32 @@
   opacity: 100%;
 }
 .dishes {
-  height: 750px;
-  width: 100%;
-  padding: 10px;
-  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.dishes_text {
+  display: flex;
+  gap: 5rem;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
 }
-.dishes_img_1 {
-  width: 476px;
-  height: 272px;
-  padding-top: 75px;
-  padding-right: 150px;
-  padding-left: 68px;
-}
-.dishes_img_2 {
-  width: 476px;
-  height: 272px;
-  padding-right: 150px;
-}
-.dishes_img_3 {
+.dishes_img {
   width: 476px;
   height: 272px;
 }
-.about_us {
-  color: black;
-  background-color: #dedede;
-  height: 1000px;
-  width: 100%;
-
-  font-family: "Montserrat", sans-serif;
-  position: absolute;
-  font-size: 20px;
-}
-.about_us_text {
-  font-size: 20px;
-
-  text-align: left;
-}
-.about_us_img {
-  object-fit: cover;
+.map-responsive {
   overflow: hidden;
-  height: 350px;
-  width: 40%;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
