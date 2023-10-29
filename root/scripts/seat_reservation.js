@@ -35,10 +35,10 @@ $("#poor1").click(function () {
 $("#poor1").click(function () {
   if (clicked1 == true) {
     clicked1 = false;
-    Bill = Bill + 200;
+    Bill = Bill + 1000;
   } else if (clicked1 == false) {
     clicked1 = true;
-    Bill = Bill - 200;
+    Bill = Bill - 1000;
   }
 });
 //BUTTON 2
@@ -49,10 +49,10 @@ $("#poor2").click(function () {
 $("#poor2").click(function () {
   if (clicked2 == true) {
     clicked2 = false;
-    Bill = Bill + 200;
+    Bill = Bill + 1000;
   } else if (clicked2 == false) {
     clicked2 = true;
-    Bill = Bill - 200;
+    Bill = Bill - 1000;
   }
 });
 //BUTTON 3
@@ -63,10 +63,10 @@ $("#poor3").click(function () {
 $("#poor3").click(function () {
   if (clicked3 == true) {
     clicked3 = false;
-    Bill = Bill + 200;
+    Bill = Bill + 1000;
   } else if (clicked3 == false) {
     clicked3 = true;
-    Bill = Bill - 200;
+    Bill = Bill - 1000;
   }
 });
 //BUTTON 4
@@ -77,10 +77,10 @@ $("#poor4").click(function () {
 $("#poor4").click(function () {
   if (clicked4 == true) {
     clicked4 = false;
-    Bill = Bill + 200;
+    Bill = Bill + 1000;
   } else if (clicked4 == false) {
     clicked4 = true;
-    Bill = Bill - 200;
+    Bill = Bill - 1000;
   }
 });
 //Button 5
@@ -91,10 +91,10 @@ $("#poor5").click(function () {
 $("#poor5").click(function () {
   if (clicked5 == true) {
     clicked5 = false;
-    Bill = Bill + 200;
+    Bill = Bill + 1000;
   } else if (clicked5 == false) {
     clicked5 = true;
-    Bill = Bill - 200;
+    Bill = Bill - 1000;
   }
 });
 //Button 6
@@ -105,10 +105,10 @@ $("#poor6").click(function () {
 $("#poor6").click(function () {
   if (clicked6 == true) {
     clicked6 = false;
-    Bill = Bill + 200;
+    Bill = Bill + 1000;
   } else if (clicked6 == false) {
     clicked6 = true;
-    Bill = Bill - 200;
+    Bill = Bill - 1000;
   }
 });
 
@@ -120,10 +120,10 @@ $("#poor7").click(function () {
 $("#poor7").click(function () {
   if (clicked7 == true) {
     clicked7 = false;
-    Bill = Bill + 200;
+    Bill = Bill + 1000;
   } else if (clicked7 == false) {
     clicked7 = true;
-    Bill = Bill - 200;
+    Bill = Bill - 1000;
   }
 });
 //Button 8
@@ -134,10 +134,10 @@ $("#poor8").click(function () {
 $("#poor8").click(function () {
   if (clicked8 == true) {
     clicked8 = false;
-    Bill = Bill + 200;
+    Bill = Bill + 1000;
   } else if (clicked8 == false) {
     clicked8 = true;
-    Bill = Bill - 200;
+    Bill = Bill - 1000;
   }
 });
 //Button 9
@@ -148,10 +148,10 @@ $("#rich9").click(function () {
 $("#rich9").click(function () {
   if (clicked9 == true) {
     clicked9 = false;
-    Bill = Bill + 400;
+    Bill = Bill + 2000;
   } else if (clicked9 == false) {
     clicked9 = true;
-    Bill = Bill - 400;
+    Bill = Bill - 2000;
   }
 });
 //Button 10
@@ -162,10 +162,10 @@ $("#rich10").click(function () {
 $("#rich10").click(function () {
   if (clicked10 == true) {
     clicked10 = false;
-    Bill = Bill + 400;
+    Bill = Bill + 2000;
   } else if (clicked10 == false) {
     clicked10 = true;
-    Bill = Bill - 400;
+    Bill = Bill - 2000;
   }
 });
 //SUBMIT BUTTON

@@ -5,11 +5,11 @@
 .menu {
   display: flex;
   justify-content: space-around;
-  gap: 2.1rem;
 }
 /* NAVBAR STUFF COPY PASTED FROM MAIN */
 h1 {
   font-family: "Montserrat", sans-serif;
+  margin-left: 10rem;
 }
 .logo {
   top: 5px;
@@ -25,8 +25,6 @@ h1 {
 }
 ul {
   display: flex;
-  margin-top: 7rem;
-  gap: 33px;
 }
 li {
   display: inline;
@@ -47,10 +45,13 @@ li {
   color: black;
   opacity: 50%;
   text-decoration: none;
-  margin-top: -3.5rem;
+
+  margin-right: 2rem;
 }
 .btnmenu:hover {
   text-decoration: none;
   opacity: 100%;
-  color: black;
+  color: white;
+  background-color: black;
+  border-color: white;
 }

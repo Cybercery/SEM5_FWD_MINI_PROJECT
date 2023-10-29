@@ -127,3 +127,8 @@ li {
   width: 100%;
   position: absolute;
 }
+/* icons */
+.custom_icons {
+  height: 20px;
+  width: auto;
+}
